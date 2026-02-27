@@ -142,3 +142,64 @@
     flex-direction: column;
     align-items: center;
 }
+
+
+/* Follow Section  */
+
+.follow-section{
+    display: flex;
+    align-items: center;
+}
+.food-img{
+    width: 50%;
+}
+.food-img img{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+.follow-content{
+    width: 50%;
+    text-align: center;
+}
+.follow-content h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    opacity: 0.9;
+}
+.follow-content p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    opacity: 0.8;
+    margin: 15px auto;
+}
+.follow-content h5{
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 300px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icons img{
+    cursor: pointer;
+}
+
+.social-icons img{
+    height: 30px;
+}
